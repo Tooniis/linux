@@ -3444,7 +3444,7 @@ static void si_apply_state_adjust_rules(struct amdgpu_device *adev,
 		    (adev->pdev->device == 0x6664) ||
 		    (adev->pdev->device == 0x6665) ||
 		    (adev->pdev->device == 0x6667)) {
-			max_sclk = 75000;
+			max_sclk = 103000;
 		}
 		if ((adev->pdev->revision == 0xC3) ||
 		    (adev->pdev->device == 0x6665)) {
